@@ -17,12 +17,38 @@ img {
 
 .menu {
 	background: #252525;
+	padding: 15px 0;
+}
+
+.menu-nav ul{
+	float: right;
+}
+
+.menu-nav ul li {
+	display: inline-block;
 }
 
 .menu-nav a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.125em;
+	display: block;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+
+/* Menu responsividade mobile */
+
+@media (max-width: 739px) {
+	.menu-nav ul {
+		float: none;
+	}
+	.menu-nav ul li a {
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 /* Intro */
@@ -30,6 +56,8 @@ img {
 .intro {
 	background: url('../img/bg-intro.jpg') no-repeat center center/cover;
 	color: #fff;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
@@ -44,11 +72,18 @@ img {
 	width: 20px;
 	height: 4px;
 	background: #fff;
+	margin: 10px auto;
 }
 
 .intro p {
 	font-style: italic;
 	font-size: 1.125em;
+}
+
+@media (max-width: 739px) {
+	.intro {
+		padding: 60px 0;
+	}
 }
 
 /* Sobre */
