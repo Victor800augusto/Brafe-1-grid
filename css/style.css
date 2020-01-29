@@ -20,6 +20,10 @@ img {
 	padding: 15px 0;
 }
 
+.menu-nav {
+	float: right;
+}
+
 .menu-nav ul{
 	float: right;
 }
@@ -184,6 +188,11 @@ h2.produtos-mineiro::before {
 	margin: 0 auto;
 }
 
+.produtos-btn:hover {
+	color: #c17139;
+	border-color: #c17139;
+}
+
 /* Locais */
 
 .locais {
@@ -212,6 +221,11 @@ h2.produtos-mineiro::before {
 	border: 3px solid;
 	color: #252525;
 	padding: 10px 20px;
+}
+
+.locais-item a:hover {
+	color: #c17139;
+	border-color: #c17139;
 }
 
 /* Assine */
@@ -256,6 +270,10 @@ h2.produtos-mineiro::before {
 	width: 140px;
 	padding: 13px 0;
 	float: left;
+}
+
+.assine button:hover {
+	background: #c17139;
 }
 
 /*Footer*/
